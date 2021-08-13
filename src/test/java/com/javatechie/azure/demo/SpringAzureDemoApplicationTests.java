@@ -1,13 +1,13 @@
-package com.gorley.listapp;
+package com.javatechie.azure.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ListAppApplicationTests {
+class SpringAzureDemoApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+	}
 
 }
