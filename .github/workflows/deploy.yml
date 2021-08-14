@@ -41,7 +41,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'listapp-app-test1'
+          app-name: 'listapp-test-eastus'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_4f4f0fd105c84478abf80e9aa4612dce }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: '*.jar'
